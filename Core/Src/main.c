@@ -156,7 +156,10 @@ void SystemClock_Config(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 	HAL_UART_Receive_IT(&huart2 ,&receive_data ,1);
+	if (receive_data==0x01)
+	{
 	hit();
+	}
 }
 /* USER CODE END 4 */
 

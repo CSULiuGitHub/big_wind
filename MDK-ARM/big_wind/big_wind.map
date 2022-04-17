@@ -862,73 +862,73 @@ Image Symbol Table
     i.HAL_UART_MspInit                       0x08001188   Section        0  usart.o(i.HAL_UART_MspInit)
     i.HAL_UART_Receive_IT                    0x08001200   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
     i.HAL_UART_RxCpltCallback                0x0800122c   Section        0  main.o(i.HAL_UART_RxCpltCallback)
-    i.HAL_UART_TxCpltCallback                0x08001248   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
-    i.HardFault_Handler                      0x0800124a   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
-    i.MX_GPIO_Init                           0x0800124c   Section        0  gpio.o(i.MX_GPIO_Init)
-    i.MX_USART2_UART_Init                    0x08001360   Section        0  usart.o(i.MX_USART2_UART_Init)
-    i.MemManage_Handler                      0x08001398   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
-    i.NMI_Handler                            0x0800139a   Section        0  stm32f4xx_it.o(i.NMI_Handler)
-    i.PendSV_Handler                         0x0800139c   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
-    i.RGB_LED1_Write0                        0x080013a0   Section        0  ws2812.o(i.RGB_LED1_Write0)
-    i.RGB_LED1_Write1                        0x080013cc   Section        0  ws2812.o(i.RGB_LED1_Write1)
-    i.RGB_LED1_Write_24Bits                  0x080013f8   Section        0  ws2812.o(i.RGB_LED1_Write_24Bits)
-    i.RGB_LED1_Write_Byte                    0x08001412   Section        0  ws2812.o(i.RGB_LED1_Write_Byte)
-    i.RGB_LED2_Write0                        0x08001434   Section        0  ws2812.o(i.RGB_LED2_Write0)
-    i.RGB_LED2_Write1                        0x08001460   Section        0  ws2812.o(i.RGB_LED2_Write1)
-    i.RGB_LED2_Write_24Bits                  0x0800148c   Section        0  ws2812.o(i.RGB_LED2_Write_24Bits)
-    i.RGB_LED2_Write_Byte                    0x080014a6   Section        0  ws2812.o(i.RGB_LED2_Write_Byte)
-    i.RGB_LED3_Write0                        0x080014c8   Section        0  ws2812.o(i.RGB_LED3_Write0)
-    i.RGB_LED3_Write1                        0x080014f4   Section        0  ws2812.o(i.RGB_LED3_Write1)
-    i.RGB_LED3_Write_24Bits                  0x08001520   Section        0  ws2812.o(i.RGB_LED3_Write_24Bits)
-    i.RGB_LED3_Write_Byte                    0x0800153a   Section        0  ws2812.o(i.RGB_LED3_Write_Byte)
-    i.Run_led                                0x0800155c   Section        0  transfer.o(i.Run_led)
-    i.SVC_Handler                            0x080015a8   Section        0  stm32f4xx_it.o(i.SVC_Handler)
-    i.SysTick_Handler                        0x080015aa   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
-    i.SystemClock_Config                     0x080015b0   Section        0  main.o(i.SystemClock_Config)
-    i.SystemInit                             0x08001648   Section        0  system_stm32f4xx.o(i.SystemInit)
-    i.UART_DMAAbortOnError                   0x08001658   Section        0  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
-    UART_DMAAbortOnError                     0x08001659   Thumb Code    16  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
-    i.UART_EndRxTransfer                     0x08001668   Section        0  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
-    UART_EndRxTransfer                       0x08001669   Thumb Code    78  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
-    i.UART_Receive_IT                        0x080016b6   Section        0  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
-    UART_Receive_IT                          0x080016b7   Thumb Code   192  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
-    i.UART_SetConfig                         0x08001778   Section        0  stm32f4xx_hal_uart.o(i.UART_SetConfig)
-    UART_SetConfig                           0x08001779   Thumb Code   258  stm32f4xx_hal_uart.o(i.UART_SetConfig)
-    i.UART_Start_Receive_IT                  0x08001884   Section        0  stm32f4xx_hal_uart.o(i.UART_Start_Receive_IT)
-    i.USART2_IRQHandler                      0x080018bc   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
-    i.UsageFault_Handler                     0x080018c8   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
-    i.WS2812_reset                           0x080018cc   Section        0  transfer.o(i.WS2812_reset)
-    i.__NVIC_SetPriority                     0x0800195c   Section        0  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    __NVIC_SetPriority                       0x0800195d   Thumb Code    32  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    i.armour                                 0x0800197c   Section        0  transfer.o(i.armour)
-    i.change_lamp                            0x080019bc   Section        0  transfer.o(i.change_lamp)
-    i.delay_us                               0x08001a78   Section        0  ws2812.o(i.delay_us)
-    i.fifth                                  0x08001a84   Section        0  frame.o(i.fifth)
-    i.finish                                 0x08001af4   Section        0  transfer.o(i.finish)
-    i.first                                  0x08001b46   Section        0  frame.o(i.first)
-    i.forth                                  0x08001bae   Section        0  frame.o(i.forth)
-    i.hit                                    0x08001c06   Section        0  transfer.o(i.hit)
-    i.main                                   0x08001c4c   Section        0  main.o(i.main)
-    i.second                                 0x08001c84   Section        0  frame.o(i.second)
-    i.sevth                                  0x08001ce0   Section        0  frame.o(i.sevth)
-    i.sixth                                  0x08001d4c   Section        0  frame.o(i.sixth)
-    i.third                                  0x08001dbc   Section        0  frame.o(i.third)
-    x$fpl$fpinit                             0x08001e14   Section       10  fpinit.o(x$fpl$fpinit)
-    $v0                                      0x08001e14   Number         0  fpinit.o(x$fpl$fpinit)
-    .constdata                               0x08001e1e   Section       16  system_stm32f4xx.o(.constdata)
-    .constdata                               0x08001e2e   Section        8  system_stm32f4xx.o(.constdata)
+    i.HAL_UART_TxCpltCallback                0x08001254   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
+    i.HardFault_Handler                      0x08001256   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
+    i.MX_GPIO_Init                           0x08001258   Section        0  gpio.o(i.MX_GPIO_Init)
+    i.MX_USART2_UART_Init                    0x0800136c   Section        0  usart.o(i.MX_USART2_UART_Init)
+    i.MemManage_Handler                      0x080013a4   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
+    i.NMI_Handler                            0x080013a6   Section        0  stm32f4xx_it.o(i.NMI_Handler)
+    i.PendSV_Handler                         0x080013a8   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
+    i.RGB_LED1_Write0                        0x080013ac   Section        0  ws2812.o(i.RGB_LED1_Write0)
+    i.RGB_LED1_Write1                        0x080013d8   Section        0  ws2812.o(i.RGB_LED1_Write1)
+    i.RGB_LED1_Write_24Bits                  0x08001404   Section        0  ws2812.o(i.RGB_LED1_Write_24Bits)
+    i.RGB_LED1_Write_Byte                    0x0800141e   Section        0  ws2812.o(i.RGB_LED1_Write_Byte)
+    i.RGB_LED2_Write0                        0x08001440   Section        0  ws2812.o(i.RGB_LED2_Write0)
+    i.RGB_LED2_Write1                        0x0800146c   Section        0  ws2812.o(i.RGB_LED2_Write1)
+    i.RGB_LED2_Write_24Bits                  0x08001498   Section        0  ws2812.o(i.RGB_LED2_Write_24Bits)
+    i.RGB_LED2_Write_Byte                    0x080014b2   Section        0  ws2812.o(i.RGB_LED2_Write_Byte)
+    i.RGB_LED3_Write0                        0x080014d4   Section        0  ws2812.o(i.RGB_LED3_Write0)
+    i.RGB_LED3_Write1                        0x08001500   Section        0  ws2812.o(i.RGB_LED3_Write1)
+    i.RGB_LED3_Write_24Bits                  0x0800152c   Section        0  ws2812.o(i.RGB_LED3_Write_24Bits)
+    i.RGB_LED3_Write_Byte                    0x08001546   Section        0  ws2812.o(i.RGB_LED3_Write_Byte)
+    i.Run_led                                0x08001568   Section        0  transfer.o(i.Run_led)
+    i.SVC_Handler                            0x080015b4   Section        0  stm32f4xx_it.o(i.SVC_Handler)
+    i.SysTick_Handler                        0x080015b6   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
+    i.SystemClock_Config                     0x080015bc   Section        0  main.o(i.SystemClock_Config)
+    i.SystemInit                             0x08001654   Section        0  system_stm32f4xx.o(i.SystemInit)
+    i.UART_DMAAbortOnError                   0x08001664   Section        0  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
+    UART_DMAAbortOnError                     0x08001665   Thumb Code    16  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
+    i.UART_EndRxTransfer                     0x08001674   Section        0  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
+    UART_EndRxTransfer                       0x08001675   Thumb Code    78  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
+    i.UART_Receive_IT                        0x080016c2   Section        0  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
+    UART_Receive_IT                          0x080016c3   Thumb Code   192  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
+    i.UART_SetConfig                         0x08001784   Section        0  stm32f4xx_hal_uart.o(i.UART_SetConfig)
+    UART_SetConfig                           0x08001785   Thumb Code   258  stm32f4xx_hal_uart.o(i.UART_SetConfig)
+    i.UART_Start_Receive_IT                  0x08001890   Section        0  stm32f4xx_hal_uart.o(i.UART_Start_Receive_IT)
+    i.USART2_IRQHandler                      0x080018c8   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
+    i.UsageFault_Handler                     0x080018d4   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
+    i.WS2812_reset                           0x080018d8   Section        0  transfer.o(i.WS2812_reset)
+    i.__NVIC_SetPriority                     0x08001968   Section        0  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    __NVIC_SetPriority                       0x08001969   Thumb Code    32  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    i.armour                                 0x08001988   Section        0  transfer.o(i.armour)
+    i.change_lamp                            0x080019c8   Section        0  transfer.o(i.change_lamp)
+    i.delay_us                               0x08001a84   Section        0  ws2812.o(i.delay_us)
+    i.fifth                                  0x08001a90   Section        0  frame.o(i.fifth)
+    i.finish                                 0x08001b00   Section        0  transfer.o(i.finish)
+    i.first                                  0x08001b52   Section        0  frame.o(i.first)
+    i.forth                                  0x08001bba   Section        0  frame.o(i.forth)
+    i.hit                                    0x08001c12   Section        0  transfer.o(i.hit)
+    i.main                                   0x08001c58   Section        0  main.o(i.main)
+    i.second                                 0x08001c90   Section        0  frame.o(i.second)
+    i.sevth                                  0x08001cec   Section        0  frame.o(i.sevth)
+    i.sixth                                  0x08001d58   Section        0  frame.o(i.sixth)
+    i.third                                  0x08001dc8   Section        0  frame.o(i.third)
+    x$fpl$fpinit                             0x08001e20   Section       10  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x08001e20   Number         0  fpinit.o(x$fpl$fpinit)
+    .constdata                               0x08001e2a   Section       16  system_stm32f4xx.o(.constdata)
+    .constdata                               0x08001e3a   Section        8  system_stm32f4xx.o(.constdata)
     .data                                    0x20000000   Section       20  ws2812.o(.data)
-    .data                                    0x20000014   Section        7  transfer.o(.data)
-    .data                                    0x2000001b   Section        1  main.o(.data)
-    .data                                    0x2000001c   Section       12  stm32f4xx_hal.o(.data)
-    .data                                    0x20000028   Section        4  system_stm32f4xx.o(.data)
-    .bss                                     0x2000002c   Section       68  usart.o(.bss)
-    .bss                                     0x20000070   Section       96  libspace.o(.bss)
-    HEAP                                     0x200000d0   Section      512  startup_stm32f407xx.o(HEAP)
-    Heap_Mem                                 0x200000d0   Data         512  startup_stm32f407xx.o(HEAP)
-    STACK                                    0x200002d0   Section     1024  startup_stm32f407xx.o(STACK)
-    Stack_Mem                                0x200002d0   Data        1024  startup_stm32f407xx.o(STACK)
-    __initial_sp                             0x200006d0   Data           0  startup_stm32f407xx.o(STACK)
+    .data                                    0x20000014   Section        8  transfer.o(.data)
+    .data                                    0x2000001c   Section        1  main.o(.data)
+    .data                                    0x20000020   Section       12  stm32f4xx_hal.o(.data)
+    .data                                    0x2000002c   Section        4  system_stm32f4xx.o(.data)
+    .bss                                     0x20000030   Section       68  usart.o(.bss)
+    .bss                                     0x20000074   Section       96  libspace.o(.bss)
+    HEAP                                     0x200000d8   Section      512  startup_stm32f407xx.o(HEAP)
+    Heap_Mem                                 0x200000d8   Data         512  startup_stm32f407xx.o(HEAP)
+    STACK                                    0x200002d8   Section     1024  startup_stm32f407xx.o(STACK)
+    Stack_Mem                                0x200002d8   Data        1024  startup_stm32f407xx.o(STACK)
+    __initial_sp                             0x200006d8   Data           0  startup_stm32f407xx.o(STACK)
 
     Global Symbols
 
@@ -1143,55 +1143,55 @@ Image Symbol Table
     HAL_UART_Init                            0x08001125   Thumb Code    98  stm32f4xx_hal_uart.o(i.HAL_UART_Init)
     HAL_UART_MspInit                         0x08001189   Thumb Code   108  usart.o(i.HAL_UART_MspInit)
     HAL_UART_Receive_IT                      0x08001201   Thumb Code    42  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
-    HAL_UART_RxCpltCallback                  0x0800122d   Thumb Code    20  main.o(i.HAL_UART_RxCpltCallback)
-    HAL_UART_TxCpltCallback                  0x08001249   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
-    HardFault_Handler                        0x0800124b   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
-    MX_GPIO_Init                             0x0800124d   Thumb Code   254  gpio.o(i.MX_GPIO_Init)
-    MX_USART2_UART_Init                      0x08001361   Thumb Code    48  usart.o(i.MX_USART2_UART_Init)
-    MemManage_Handler                        0x08001399   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
-    NMI_Handler                              0x0800139b   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
-    PendSV_Handler                           0x0800139d   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
-    RGB_LED1_Write0                          0x080013a1   Thumb Code    40  ws2812.o(i.RGB_LED1_Write0)
-    RGB_LED1_Write1                          0x080013cd   Thumb Code    40  ws2812.o(i.RGB_LED1_Write1)
-    RGB_LED1_Write_24Bits                    0x080013f9   Thumb Code    26  ws2812.o(i.RGB_LED1_Write_24Bits)
-    RGB_LED1_Write_Byte                      0x08001413   Thumb Code    34  ws2812.o(i.RGB_LED1_Write_Byte)
-    RGB_LED2_Write0                          0x08001435   Thumb Code    40  ws2812.o(i.RGB_LED2_Write0)
-    RGB_LED2_Write1                          0x08001461   Thumb Code    40  ws2812.o(i.RGB_LED2_Write1)
-    RGB_LED2_Write_24Bits                    0x0800148d   Thumb Code    26  ws2812.o(i.RGB_LED2_Write_24Bits)
-    RGB_LED2_Write_Byte                      0x080014a7   Thumb Code    34  ws2812.o(i.RGB_LED2_Write_Byte)
-    RGB_LED3_Write0                          0x080014c9   Thumb Code    40  ws2812.o(i.RGB_LED3_Write0)
-    RGB_LED3_Write1                          0x080014f5   Thumb Code    40  ws2812.o(i.RGB_LED3_Write1)
-    RGB_LED3_Write_24Bits                    0x08001521   Thumb Code    26  ws2812.o(i.RGB_LED3_Write_24Bits)
-    RGB_LED3_Write_Byte                      0x0800153b   Thumb Code    34  ws2812.o(i.RGB_LED3_Write_Byte)
-    Run_led                                  0x0800155d   Thumb Code    76  transfer.o(i.Run_led)
-    SVC_Handler                              0x080015a9   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
-    SysTick_Handler                          0x080015ab   Thumb Code     4  stm32f4xx_it.o(i.SysTick_Handler)
-    SystemClock_Config                       0x080015b1   Thumb Code   142  main.o(i.SystemClock_Config)
-    SystemInit                               0x08001649   Thumb Code    12  system_stm32f4xx.o(i.SystemInit)
-    UART_Start_Receive_IT                    0x08001885   Thumb Code    54  stm32f4xx_hal_uart.o(i.UART_Start_Receive_IT)
-    USART2_IRQHandler                        0x080018bd   Thumb Code     6  stm32f4xx_it.o(i.USART2_IRQHandler)
-    UsageFault_Handler                       0x080018c9   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
-    WS2812_reset                             0x080018cd   Thumb Code   114  transfer.o(i.WS2812_reset)
-    armour                                   0x0800197d   Thumb Code    64  transfer.o(i.armour)
-    change_lamp                              0x080019bd   Thumb Code   146  transfer.o(i.change_lamp)
-    delay_us                                 0x08001a79   Thumb Code    12  ws2812.o(i.delay_us)
-    fifth                                    0x08001a85   Thumb Code   112  frame.o(i.fifth)
-    finish                                   0x08001af5   Thumb Code    82  transfer.o(i.finish)
-    first                                    0x08001b47   Thumb Code   104  frame.o(i.first)
-    forth                                    0x08001baf   Thumb Code    88  frame.o(i.forth)
-    hit                                      0x08001c07   Thumb Code    68  transfer.o(i.hit)
-    main                                     0x08001c4d   Thumb Code    46  main.o(i.main)
-    second                                   0x08001c85   Thumb Code    92  frame.o(i.second)
-    sevth                                    0x08001ce1   Thumb Code   108  frame.o(i.sevth)
-    sixth                                    0x08001d4d   Thumb Code   112  frame.o(i.sixth)
-    third                                    0x08001dbd   Thumb Code    88  frame.o(i.third)
-    _fp_init                                 0x08001e15   Thumb Code    10  fpinit.o(x$fpl$fpinit)
-    __fplib_config_fpu_vfp                   0x08001e1d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    __fplib_config_pureend_doubles           0x08001e1d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    AHBPrescTable                            0x08001e1e   Data          16  system_stm32f4xx.o(.constdata)
-    APBPrescTable                            0x08001e2e   Data           8  system_stm32f4xx.o(.constdata)
-    Region$$Table$$Base                      0x08001e38   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08001e58   Number         0  anon$$obj.o(Region$$Table)
+    HAL_UART_RxCpltCallback                  0x0800122d   Thumb Code    30  main.o(i.HAL_UART_RxCpltCallback)
+    HAL_UART_TxCpltCallback                  0x08001255   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
+    HardFault_Handler                        0x08001257   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
+    MX_GPIO_Init                             0x08001259   Thumb Code   254  gpio.o(i.MX_GPIO_Init)
+    MX_USART2_UART_Init                      0x0800136d   Thumb Code    48  usart.o(i.MX_USART2_UART_Init)
+    MemManage_Handler                        0x080013a5   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
+    NMI_Handler                              0x080013a7   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
+    PendSV_Handler                           0x080013a9   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
+    RGB_LED1_Write0                          0x080013ad   Thumb Code    40  ws2812.o(i.RGB_LED1_Write0)
+    RGB_LED1_Write1                          0x080013d9   Thumb Code    40  ws2812.o(i.RGB_LED1_Write1)
+    RGB_LED1_Write_24Bits                    0x08001405   Thumb Code    26  ws2812.o(i.RGB_LED1_Write_24Bits)
+    RGB_LED1_Write_Byte                      0x0800141f   Thumb Code    34  ws2812.o(i.RGB_LED1_Write_Byte)
+    RGB_LED2_Write0                          0x08001441   Thumb Code    40  ws2812.o(i.RGB_LED2_Write0)
+    RGB_LED2_Write1                          0x0800146d   Thumb Code    40  ws2812.o(i.RGB_LED2_Write1)
+    RGB_LED2_Write_24Bits                    0x08001499   Thumb Code    26  ws2812.o(i.RGB_LED2_Write_24Bits)
+    RGB_LED2_Write_Byte                      0x080014b3   Thumb Code    34  ws2812.o(i.RGB_LED2_Write_Byte)
+    RGB_LED3_Write0                          0x080014d5   Thumb Code    40  ws2812.o(i.RGB_LED3_Write0)
+    RGB_LED3_Write1                          0x08001501   Thumb Code    40  ws2812.o(i.RGB_LED3_Write1)
+    RGB_LED3_Write_24Bits                    0x0800152d   Thumb Code    26  ws2812.o(i.RGB_LED3_Write_24Bits)
+    RGB_LED3_Write_Byte                      0x08001547   Thumb Code    34  ws2812.o(i.RGB_LED3_Write_Byte)
+    Run_led                                  0x08001569   Thumb Code    76  transfer.o(i.Run_led)
+    SVC_Handler                              0x080015b5   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
+    SysTick_Handler                          0x080015b7   Thumb Code     4  stm32f4xx_it.o(i.SysTick_Handler)
+    SystemClock_Config                       0x080015bd   Thumb Code   142  main.o(i.SystemClock_Config)
+    SystemInit                               0x08001655   Thumb Code    12  system_stm32f4xx.o(i.SystemInit)
+    UART_Start_Receive_IT                    0x08001891   Thumb Code    54  stm32f4xx_hal_uart.o(i.UART_Start_Receive_IT)
+    USART2_IRQHandler                        0x080018c9   Thumb Code     6  stm32f4xx_it.o(i.USART2_IRQHandler)
+    UsageFault_Handler                       0x080018d5   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
+    WS2812_reset                             0x080018d9   Thumb Code   114  transfer.o(i.WS2812_reset)
+    armour                                   0x08001989   Thumb Code    64  transfer.o(i.armour)
+    change_lamp                              0x080019c9   Thumb Code   146  transfer.o(i.change_lamp)
+    delay_us                                 0x08001a85   Thumb Code    12  ws2812.o(i.delay_us)
+    fifth                                    0x08001a91   Thumb Code   112  frame.o(i.fifth)
+    finish                                   0x08001b01   Thumb Code    82  transfer.o(i.finish)
+    first                                    0x08001b53   Thumb Code   104  frame.o(i.first)
+    forth                                    0x08001bbb   Thumb Code    88  frame.o(i.forth)
+    hit                                      0x08001c13   Thumb Code    68  transfer.o(i.hit)
+    main                                     0x08001c59   Thumb Code    46  main.o(i.main)
+    second                                   0x08001c91   Thumb Code    92  frame.o(i.second)
+    sevth                                    0x08001ced   Thumb Code   108  frame.o(i.sevth)
+    sixth                                    0x08001d59   Thumb Code   112  frame.o(i.sixth)
+    third                                    0x08001dc9   Thumb Code    88  frame.o(i.third)
+    _fp_init                                 0x08001e21   Thumb Code    10  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x08001e29   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x08001e29   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    AHBPrescTable                            0x08001e2a   Data          16  system_stm32f4xx.o(.constdata)
+    APBPrescTable                            0x08001e3a   Data           8  system_stm32f4xx.o(.constdata)
+    Region$$Table$$Base                      0x08001e44   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08001e64   Number         0  anon$$obj.o(Region$$Table)
     LED_Pin_1                                0x20000000   Data           2  ws2812.o(.data)
     LED_Pin_2                                0x20000002   Data           2  ws2812.o(.data)
     LED_Pin_3                                0x20000004   Data           2  ws2812.o(.data)
@@ -1200,15 +1200,15 @@ Image Symbol Table
     LED_PORT_3                               0x20000010   Data           4  ws2812.o(.data)
     cnt1                                     0x20000014   Data           1  transfer.o(.data)
     target                                   0x20000015   Data           1  transfer.o(.data)
-    number                                   0x20000016   Data           5  transfer.o(.data)
-    receive_data                             0x2000001b   Data           1  main.o(.data)
-    uwTickFreq                               0x2000001c   Data           1  stm32f4xx_hal.o(.data)
-    uwTickPrio                               0x20000020   Data           4  stm32f4xx_hal.o(.data)
-    uwTick                                   0x20000024   Data           4  stm32f4xx_hal.o(.data)
-    SystemCoreClock                          0x20000028   Data           4  system_stm32f4xx.o(.data)
-    huart2                                   0x2000002c   Data          68  usart.o(.bss)
-    __libspace_start                         0x20000070   Data          96  libspace.o(.bss)
-    __temporary_stack_top$libspace           0x200000d0   Data           0  libspace.o(.bss)
+    number                                   0x20000016   Data           6  transfer.o(.data)
+    receive_data                             0x2000001c   Data           1  main.o(.data)
+    uwTickFreq                               0x20000020   Data           1  stm32f4xx_hal.o(.data)
+    uwTickPrio                               0x20000024   Data           4  stm32f4xx_hal.o(.data)
+    uwTick                                   0x20000028   Data           4  stm32f4xx_hal.o(.data)
+    SystemCoreClock                          0x2000002c   Data           4  system_stm32f4xx.o(.data)
+    huart2                                   0x20000030   Data          68  usart.o(.bss)
+    __libspace_start                         0x20000074   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x200000d4   Data           0  libspace.o(.bss)
 
 
 
@@ -1218,9 +1218,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00001e84, Max: 0x00100000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00001e94, Max: 0x00100000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00001e58, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00001e64, Max: 0x00100000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1316,64 +1316,64 @@ Memory Map of the image
     0x08001188   0x00000078   Code   RO          422    i.HAL_UART_MspInit  usart.o
     0x08001200   0x0000002a   Code   RO          639    i.HAL_UART_Receive_IT  stm32f4xx_hal_uart.o
     0x0800122a   0x00000002   PAD
-    0x0800122c   0x0000001c   Code   RO          346    i.HAL_UART_RxCpltCallback  main.o
-    0x08001248   0x00000002   Code   RO          645    i.HAL_UART_TxCpltCallback  stm32f4xx_hal_uart.o
-    0x0800124a   0x00000002   Code   RO          465    i.HardFault_Handler  stm32f4xx_it.o
-    0x0800124c   0x00000114   Code   RO          397    i.MX_GPIO_Init      gpio.o
-    0x08001360   0x00000038   Code   RO          423    i.MX_USART2_UART_Init  usart.o
-    0x08001398   0x00000002   Code   RO          466    i.MemManage_Handler  stm32f4xx_it.o
-    0x0800139a   0x00000002   Code   RO          467    i.NMI_Handler       stm32f4xx_it.o
-    0x0800139c   0x00000002   Code   RO          468    i.PendSV_Handler    stm32f4xx_it.o
-    0x0800139e   0x00000002   PAD
-    0x080013a0   0x0000002c   Code   RO           13    i.RGB_LED1_Write0   ws2812.o
-    0x080013cc   0x0000002c   Code   RO           14    i.RGB_LED1_Write1   ws2812.o
-    0x080013f8   0x0000001a   Code   RO           15    i.RGB_LED1_Write_24Bits  ws2812.o
-    0x08001412   0x00000022   Code   RO           16    i.RGB_LED1_Write_Byte  ws2812.o
-    0x08001434   0x0000002c   Code   RO           17    i.RGB_LED2_Write0   ws2812.o
-    0x08001460   0x0000002c   Code   RO           18    i.RGB_LED2_Write1   ws2812.o
-    0x0800148c   0x0000001a   Code   RO           19    i.RGB_LED2_Write_24Bits  ws2812.o
-    0x080014a6   0x00000022   Code   RO           20    i.RGB_LED2_Write_Byte  ws2812.o
-    0x080014c8   0x0000002c   Code   RO           21    i.RGB_LED3_Write0   ws2812.o
-    0x080014f4   0x0000002c   Code   RO           22    i.RGB_LED3_Write1   ws2812.o
-    0x08001520   0x0000001a   Code   RO           23    i.RGB_LED3_Write_24Bits  ws2812.o
-    0x0800153a   0x00000022   Code   RO           24    i.RGB_LED3_Write_Byte  ws2812.o
-    0x0800155c   0x0000004c   Code   RO          204    i.Run_led           transfer.o
-    0x080015a8   0x00000002   Code   RO          469    i.SVC_Handler       stm32f4xx_it.o
-    0x080015aa   0x00000004   Code   RO          470    i.SysTick_Handler   stm32f4xx_it.o
-    0x080015ae   0x00000002   PAD
-    0x080015b0   0x00000098   Code   RO          347    i.SystemClock_Config  main.o
-    0x08001648   0x00000010   Code   RO         2095    i.SystemInit        system_stm32f4xx.o
-    0x08001658   0x00000010   Code   RO          647    i.UART_DMAAbortOnError  stm32f4xx_hal_uart.o
-    0x08001668   0x0000004e   Code   RO          657    i.UART_EndRxTransfer  stm32f4xx_hal_uart.o
-    0x080016b6   0x000000c0   Code   RO          659    i.UART_Receive_IT   stm32f4xx_hal_uart.o
-    0x08001776   0x00000002   PAD
-    0x08001778   0x0000010c   Code   RO          660    i.UART_SetConfig    stm32f4xx_hal_uart.o
-    0x08001884   0x00000036   Code   RO          662    i.UART_Start_Receive_IT  stm32f4xx_hal_uart.o
-    0x080018ba   0x00000002   PAD
-    0x080018bc   0x0000000c   Code   RO          471    i.USART2_IRQHandler  stm32f4xx_it.o
-    0x080018c8   0x00000002   Code   RO          472    i.UsageFault_Handler  stm32f4xx_it.o
-    0x080018ca   0x00000002   PAD
-    0x080018cc   0x00000090   Code   RO          205    i.WS2812_reset      transfer.o
-    0x0800195c   0x00000020   Code   RO         1719    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x0800197c   0x00000040   Code   RO          206    i.armour            transfer.o
-    0x080019bc   0x000000bc   Code   RO          207    i.change_lamp       transfer.o
-    0x08001a78   0x0000000c   Code   RO           25    i.delay_us          ws2812.o
-    0x08001a84   0x00000070   Code   RO          282    i.fifth             frame.o
-    0x08001af4   0x00000052   Code   RO          208    i.finish            transfer.o
-    0x08001b46   0x00000068   Code   RO          283    i.first             frame.o
-    0x08001bae   0x00000058   Code   RO          284    i.forth             frame.o
-    0x08001c06   0x00000044   Code   RO          209    i.hit               transfer.o
-    0x08001c4a   0x00000002   PAD
-    0x08001c4c   0x00000038   Code   RO          348    i.main              main.o
-    0x08001c84   0x0000005c   Code   RO          285    i.second            frame.o
-    0x08001ce0   0x0000006c   Code   RO          286    i.sevth             frame.o
-    0x08001d4c   0x00000070   Code   RO          287    i.sixth             frame.o
-    0x08001dbc   0x00000058   Code   RO          288    i.third             frame.o
-    0x08001e14   0x0000000a   Code   RO         2246    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x08001e1e   0x00000010   Data   RO         2096    .constdata          system_stm32f4xx.o
-    0x08001e2e   0x00000008   Data   RO         2097    .constdata          system_stm32f4xx.o
-    0x08001e36   0x00000002   PAD
-    0x08001e38   0x00000020   Data   RO         2301    Region$$Table       anon$$obj.o
+    0x0800122c   0x00000028   Code   RO          346    i.HAL_UART_RxCpltCallback  main.o
+    0x08001254   0x00000002   Code   RO          645    i.HAL_UART_TxCpltCallback  stm32f4xx_hal_uart.o
+    0x08001256   0x00000002   Code   RO          465    i.HardFault_Handler  stm32f4xx_it.o
+    0x08001258   0x00000114   Code   RO          397    i.MX_GPIO_Init      gpio.o
+    0x0800136c   0x00000038   Code   RO          423    i.MX_USART2_UART_Init  usart.o
+    0x080013a4   0x00000002   Code   RO          466    i.MemManage_Handler  stm32f4xx_it.o
+    0x080013a6   0x00000002   Code   RO          467    i.NMI_Handler       stm32f4xx_it.o
+    0x080013a8   0x00000002   Code   RO          468    i.PendSV_Handler    stm32f4xx_it.o
+    0x080013aa   0x00000002   PAD
+    0x080013ac   0x0000002c   Code   RO           13    i.RGB_LED1_Write0   ws2812.o
+    0x080013d8   0x0000002c   Code   RO           14    i.RGB_LED1_Write1   ws2812.o
+    0x08001404   0x0000001a   Code   RO           15    i.RGB_LED1_Write_24Bits  ws2812.o
+    0x0800141e   0x00000022   Code   RO           16    i.RGB_LED1_Write_Byte  ws2812.o
+    0x08001440   0x0000002c   Code   RO           17    i.RGB_LED2_Write0   ws2812.o
+    0x0800146c   0x0000002c   Code   RO           18    i.RGB_LED2_Write1   ws2812.o
+    0x08001498   0x0000001a   Code   RO           19    i.RGB_LED2_Write_24Bits  ws2812.o
+    0x080014b2   0x00000022   Code   RO           20    i.RGB_LED2_Write_Byte  ws2812.o
+    0x080014d4   0x0000002c   Code   RO           21    i.RGB_LED3_Write0   ws2812.o
+    0x08001500   0x0000002c   Code   RO           22    i.RGB_LED3_Write1   ws2812.o
+    0x0800152c   0x0000001a   Code   RO           23    i.RGB_LED3_Write_24Bits  ws2812.o
+    0x08001546   0x00000022   Code   RO           24    i.RGB_LED3_Write_Byte  ws2812.o
+    0x08001568   0x0000004c   Code   RO          204    i.Run_led           transfer.o
+    0x080015b4   0x00000002   Code   RO          469    i.SVC_Handler       stm32f4xx_it.o
+    0x080015b6   0x00000004   Code   RO          470    i.SysTick_Handler   stm32f4xx_it.o
+    0x080015ba   0x00000002   PAD
+    0x080015bc   0x00000098   Code   RO          347    i.SystemClock_Config  main.o
+    0x08001654   0x00000010   Code   RO         2095    i.SystemInit        system_stm32f4xx.o
+    0x08001664   0x00000010   Code   RO          647    i.UART_DMAAbortOnError  stm32f4xx_hal_uart.o
+    0x08001674   0x0000004e   Code   RO          657    i.UART_EndRxTransfer  stm32f4xx_hal_uart.o
+    0x080016c2   0x000000c0   Code   RO          659    i.UART_Receive_IT   stm32f4xx_hal_uart.o
+    0x08001782   0x00000002   PAD
+    0x08001784   0x0000010c   Code   RO          660    i.UART_SetConfig    stm32f4xx_hal_uart.o
+    0x08001890   0x00000036   Code   RO          662    i.UART_Start_Receive_IT  stm32f4xx_hal_uart.o
+    0x080018c6   0x00000002   PAD
+    0x080018c8   0x0000000c   Code   RO          471    i.USART2_IRQHandler  stm32f4xx_it.o
+    0x080018d4   0x00000002   Code   RO          472    i.UsageFault_Handler  stm32f4xx_it.o
+    0x080018d6   0x00000002   PAD
+    0x080018d8   0x00000090   Code   RO          205    i.WS2812_reset      transfer.o
+    0x08001968   0x00000020   Code   RO         1719    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
+    0x08001988   0x00000040   Code   RO          206    i.armour            transfer.o
+    0x080019c8   0x000000bc   Code   RO          207    i.change_lamp       transfer.o
+    0x08001a84   0x0000000c   Code   RO           25    i.delay_us          ws2812.o
+    0x08001a90   0x00000070   Code   RO          282    i.fifth             frame.o
+    0x08001b00   0x00000052   Code   RO          208    i.finish            transfer.o
+    0x08001b52   0x00000068   Code   RO          283    i.first             frame.o
+    0x08001bba   0x00000058   Code   RO          284    i.forth             frame.o
+    0x08001c12   0x00000044   Code   RO          209    i.hit               transfer.o
+    0x08001c56   0x00000002   PAD
+    0x08001c58   0x00000038   Code   RO          348    i.main              main.o
+    0x08001c90   0x0000005c   Code   RO          285    i.second            frame.o
+    0x08001cec   0x0000006c   Code   RO          286    i.sevth             frame.o
+    0x08001d58   0x00000070   Code   RO          287    i.sixth             frame.o
+    0x08001dc8   0x00000058   Code   RO          288    i.third             frame.o
+    0x08001e20   0x0000000a   Code   RO         2246    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x08001e2a   0x00000010   Data   RO         2096    .constdata          system_stm32f4xx.o
+    0x08001e3a   0x00000008   Data   RO         2097    .constdata          system_stm32f4xx.o
+    0x08001e42   0x00000002   PAD
+    0x08001e44   0x00000020   Data   RO         2301    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM2 (Base: 0x10000000, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
@@ -1381,19 +1381,21 @@ Memory Map of the image
     **** No section assigned to this execution region ****
 
 
-    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000006d0, Max: 0x00020000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000006d8, Max: 0x00020000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000   0x00000014   Data   RW           26    .data               ws2812.o
-    0x20000014   0x00000007   Data   RW          211    .data               transfer.o
-    0x2000001b   0x00000001   Data   RW          349    .data               main.o
-    0x2000001c   0x0000000c   Data   RW         1863    .data               stm32f4xx_hal.o
-    0x20000028   0x00000004   Data   RW         2098    .data               system_stm32f4xx.o
-    0x2000002c   0x00000044   Zero   RW          424    .bss                usart.o
-    0x20000070   0x00000060   Zero   RW         2176    .bss                c_w.l(libspace.o)
-    0x200000d0   0x00000200   Zero   RW            2    HEAP                startup_stm32f407xx.o
-    0x200002d0   0x00000400   Zero   RW            1    STACK               startup_stm32f407xx.o
+    0x20000014   0x00000008   Data   RW          211    .data               transfer.o
+    0x2000001c   0x00000001   Data   RW          349    .data               main.o
+    0x2000001d   0x00000003   PAD
+    0x20000020   0x0000000c   Data   RW         1863    .data               stm32f4xx_hal.o
+    0x2000002c   0x00000004   Data   RW         2098    .data               system_stm32f4xx.o
+    0x20000030   0x00000044   Zero   RW          424    .bss                usart.o
+    0x20000074   0x00000060   Zero   RW         2176    .bss                c_w.l(libspace.o)
+    0x200000d4   0x00000004   PAD
+    0x200000d8   0x00000200   Zero   RW            2    HEAP                startup_stm32f407xx.o
+    0x200002d8   0x00000400   Zero   RW            1    STACK               startup_stm32f407xx.o
 
 
 ==============================================================================
@@ -1403,27 +1405,27 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       704          0          0          0          0       4153   frame.o
-       276         22          0          0          0       1035   gpio.o
-       240         28          0          1          0       2677   main.o
-        64         26        392          0       1536        824   startup_stm32f407xx.o
-       180         28          0         12          0       9189   stm32f4xx_hal.o
-       198         14          0          0          0      33475   stm32f4xx_hal_cortex.o
-       182          0          0          0          0       1907   stm32f4xx_hal_dma.o
-       506         46          0          0          0       1956   stm32f4xx_hal_gpio.o
-        48          6          0          0          0        818   stm32f4xx_hal_msp.o
-      1348         76          0          0          0       4904   stm32f4xx_hal_rcc.o
-      1370         16          0          0          0       8276   stm32f4xx_hal_uart.o
-        32          6          0          0          0       4446   stm32f4xx_it.o
-        16          4         24          4          0       1067   system_stm32f4xx.o
-       898        132          0          7          0       4700   transfer.o
-       176         20          0          0         68       1614   usart.o
-       456         24          0         20          0     663900   ws2812.o
+       704          0          0          0          0       4209   frame.o
+       276         22          0          0          0       1051   gpio.o
+       252         30          0          1          0       2745   main.o
+        64         26        392          0       1536        832   startup_stm32f407xx.o
+       180         28          0         12          0       9245   stm32f4xx_hal.o
+       198         14          0          0          0      33511   stm32f4xx_hal_cortex.o
+       182          0          0          0          0       1931   stm32f4xx_hal_dma.o
+       506         46          0          0          0       1976   stm32f4xx_hal_gpio.o
+        48          6          0          0          0        830   stm32f4xx_hal_msp.o
+      1348         76          0          0          0       4940   stm32f4xx_hal_rcc.o
+      1370         16          0          0          0       8356   stm32f4xx_hal_uart.o
+        32          6          0          0          0       4514   stm32f4xx_it.o
+        16          4         24          4          0       1091   system_stm32f4xx.o
+       898        132          0          8          0       4768   transfer.o
+       176         20          0          0         68       1630   usart.o
+       456         24          0         20          0     664076   ws2812.o
 
     ----------------------------------------------------------------------
-      6718        448        450         44       1604     744941   Object Totals
+      6730        450        450         48       1604     745705   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        24          0          2          0          0          0   (incl. Padding)
+        24          0          2          3          0          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1454,8 +1456,8 @@ Image component sizes
         10          0          0          0          0        116   fpinit.o
 
     ----------------------------------------------------------------------
-       600         16          0          0         96        872   Library Totals
-         4          0          0          0          0          0   (incl. Padding)
+       600         16          0          0        100        872   Library Totals
+         4          0          0          0          4          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1465,7 +1467,7 @@ Image component sizes
         10          0          0          0          0        116   fz_wm.l
 
     ----------------------------------------------------------------------
-       600         16          0          0         96        872   Library Totals
+       600         16          0          0        100        872   Library Totals
 
     ----------------------------------------------------------------------
 
@@ -1474,15 +1476,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7318        464        450         44       1700     738753   Grand Totals
-      7318        464        450         44       1700     738753   ELF Image Totals
-      7318        464        450         44          0          0   ROM Totals
+      7330        466        450         48       1704     739517   Grand Totals
+      7330        466        450         48       1704     739517   ELF Image Totals
+      7330        466        450         48          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 7768 (   7.59kB)
-    Total RW  Size (RW Data + ZI Data)              1744 (   1.70kB)
-    Total ROM Size (Code + RO Data + RW Data)       7812 (   7.63kB)
+    Total RO  Size (Code + RO Data)                 7780 (   7.60kB)
+    Total RW  Size (RW Data + ZI Data)              1752 (   1.71kB)
+    Total ROM Size (Code + RO Data + RW Data)       7828 (   7.64kB)
 
 ==============================================================================
 

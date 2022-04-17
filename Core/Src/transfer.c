@@ -204,7 +204,7 @@ void Run_led(void)
 
   uint8_t  target;
   uint8_t  cnt1=1;
-  uint8_t number[] = {3,4,2,5,7};
+  uint8_t number[] = {3,4,2,5,1,7};
 
 void Get_next_lamp(void)
 {
