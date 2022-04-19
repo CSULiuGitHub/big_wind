@@ -91,7 +91,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
     WS2812_reset();
 		change_lamp(3);
-		HAL_UART_Receive_IT(&huart2 ,&receive_data ,1);
+//		HAL_UART_Receive_IT(&huart2 ,&receive_data ,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,8 +103,66 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	 armour();
 	 Run_led ();
-//	 WS2812_reset();
-
+		if (HAL_GPIO_ReadPin (GPIOC,GPIO_PIN_8)==0)
+		{
+		  HAL_Delay(50);
+			if(HAL_GPIO_ReadPin (GPIOC,GPIO_PIN_8)==1)//第三个扇叶
+			{
+			   hit();
+				while(1)
+				{
+				 armour();
+	       Run_led ();
+				 if (HAL_GPIO_ReadPin (GPIOC,GPIO_PIN_9)==0)
+		     {
+		        HAL_Delay(50);
+			      if(HAL_GPIO_ReadPin (GPIOC,GPIO_PIN_9)==1)//第四个扇叶
+			      {
+			         hit();
+				while(1)
+				{
+				 armour();
+	       Run_led ();
+				 if (HAL_GPIO_ReadPin (GPIOA,GPIO_PIN_8)==0)
+		     {
+		        HAL_Delay(50);
+			      if(HAL_GPIO_ReadPin (GPIOA,GPIO_PIN_8)==1)//第二个扇叶
+			      {
+			         hit();
+				while(1)
+				{
+				 armour();
+	       Run_led ();
+				 if (HAL_GPIO_ReadPin (GPIOB,GPIO_PIN_9)==0)
+		     {
+		        HAL_Delay(50);
+			      if(HAL_GPIO_ReadPin (GPIOB,GPIO_PIN_9)==1)//第五个扇叶
+			      {
+			         hit();
+				while(1)
+				{
+				 armour();
+	       Run_led ();
+				 if (HAL_GPIO_ReadPin (GPIOE,GPIO_PIN_1)==0)
+		     {
+		        HAL_Delay(50);
+			      if(HAL_GPIO_ReadPin (GPIOE,GPIO_PIN_1)==1)//第一个扇叶
+			      {
+			         hit();
+			      }
+		      }
+			  }
+			      }
+		      }
+			  }
+			      }
+		      }
+			  }
+			      }
+		      }
+			  }
+			}
+		}
   }
   /* USER CODE END 3 */
 }
